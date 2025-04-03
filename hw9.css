@@ -1,0 +1,132 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  body {
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 16px;
+    padding-bottom: 100px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2b2b2b;
+  }
+  
+  .header-icons .icon {
+    margin-left: 12px;
+    font-size: 18px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  }
+  
+  .section-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+  
+  .account, .spend {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  
+  .label {
+    font-size: 12px;
+    color: #777;
+  }
+  
+  .amount {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 4px;
+  }
+  
+  .amount.blue {
+    color: #007bff;
+  }
+  
+  .percent {
+    font-size: 12px;
+    color: red;
+    margin-left: 4px;
+  }
+  
+  .btn {
+    background-color: #eee;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  .link {
+    font-size: 12px;
+    color: #007bff;
+    text-align: left;
+  }
+  
+  .badge {
+    background-color: #e0e0e0;
+    color: #333;
+    padding: 4px 8px;
+    border-radius: 10px;
+    font-size: 12px;
+  }
+  
+  .badge.blue {
+    background-color: #d0e9ff;
+    color: #007bff;
+  }
+  
+  .bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    color: #999;
+  }
+  
+  .nav-item.active {
+    color: #007bff;
+  }
+  
